@@ -9,7 +9,7 @@ public class SimpleCalculatorTest {
     @Test
     @DisplayName("1 + 2 = 3")
     public void testPlus() {
-        SimpleCalculatorTest simpleCalculator = new SimpleCalculatorTest();
+        SimpleCalculator simpleCalculator = new SimpleCalculator();
         int rs = simpleCalculator.plus(1, 2); {
 
             assertEquals(3, rs);
